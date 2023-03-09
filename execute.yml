@@ -1,0 +1,10 @@
+---
+- name: Go into host 
+  hosts: all
+  gather_facts: false
+  vars_files:
+    - group_vars/vars.yml
+  tasks:
+
+  - name: ping to host
+    ping:

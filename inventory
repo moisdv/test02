@@ -1,0 +1,6 @@
+[devenv]
+192.168.1.107 
+
+[devenv:vars]
+ansible_user=odoo 
+ansible_password="{{ ansible_user_passwd }}"
